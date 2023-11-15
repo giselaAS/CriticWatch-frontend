@@ -1,0 +1,14 @@
+:root {
+    --background: #121212;
+    --primary: #231123;
+    --secondary: #372554;
+    --text: #FFFFFF;
+    --tertiary: #1E1E1E;
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
