@@ -22,6 +22,7 @@ main {
     width: 250px;
     height: 250px;
     margin-bottom: 20px;
+    border-radius: 25px;
 }
 
 .side-login-register {
@@ -49,7 +50,6 @@ main {
     align-items: center;
     justify-content: center;
     margin-top: 2em;
-    margin-bottom: 2em;
 }
 
 .side-login-register form input {
@@ -65,3 +65,39 @@ main {
     color: var(--text);
 }
 
+a {
+    text-decoration: none;
+}
+
+.esqueceu-senha {
+    justify-content: right;
+    text-align: right;
+    margin-bottom: 2em;
+    margin-right: 15px;
+    font-size: smaller;
+}
+
+.button-login {
+    background-color: var(--secondary);
+    border: none;
+    color: var(--text);
+    padding: 15px 80px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.button-login:hover {
+    background-color: var(--text);
+    color: var(--secondary);
+}
+
+.cadastrar-se {
+    display: flex;
+    flex-direction: row;
+    font-size: smaller;
+}
