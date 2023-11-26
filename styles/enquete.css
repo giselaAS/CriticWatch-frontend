@@ -1,0 +1,46 @@
+body {
+    background-color: var(--primary);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    margin: 5em 0em;
+    color: var(--text);
+}
+
+.buttons-enquete {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1em;
+}
+
+.buttons-enquete button {
+    background-color: var(--secondary);
+    border: none;
+    color: var(--text);
+    padding: 15px 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+}   
+
+.pronto button{
+    background-color: var(--quaternary);
+    color: var(--text);
+    border: none;
+    padding: 15px 80px;
+    border-radius: 25px;
+    margin-top: 5em;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: bold;
+}
