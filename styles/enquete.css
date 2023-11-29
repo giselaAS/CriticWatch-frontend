@@ -24,14 +24,62 @@ main {
     background-color: var(--secondary);
     border: none;
     color: var(--text);
-    padding: 15px 40px;
     text-align: center;
     text-decoration: none;
     border-radius: 10px;
     cursor: pointer;
     font-size: large;
     font-weight: bold;
+    justify-content: center;
 }   
+
+.button-acao button {
+    padding: 15px 60px;
+}
+
+.button-drama button {
+    padding: 15px 54px;
+}
+
+.button-ficcaoCientica button {
+    padding: 15px 11px;
+}
+
+.button-comedia button {
+    padding: 15px 44px;
+}
+
+.button-terror button {
+    padding: 15px 56px;
+}
+
+.button-fantasia button {
+    padding: 15px 46px;
+}
+
+.button-crime button {
+    padding: 15px 57px;
+}
+
+.button-suspense button {
+    padding: 15px 40px;
+}
+
+.button-thriller button {
+    padding: 15px 52px;
+}
+
+.button-romance button {
+    padding: 15px 42px;
+}
+
+.button-anime button {
+    padding: 15px 55px;
+}
+
+.button-desenhoInfantil button {
+    padding: 15px 12px;
+}
 
 .pronto button{
     background-color: var(--quaternary);
@@ -43,4 +91,13 @@ main {
     cursor: pointer;
     font-size: medium;
     font-weight: bold;
+}
+
+.buttons-enquete button:hover {
+    border: 2px solid var(--text);
+}
+
+.buttons-enquete button.selecionado {
+    background-color: var(--text);
+    color: var(--secondary);
 }
