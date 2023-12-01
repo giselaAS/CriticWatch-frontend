@@ -49,17 +49,17 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 2em;
+    margin-top: 5vh;
 }
 
 .side-cadastro-register form input {
     font-size: smaller;
     font-weight: 400;
-    margin: 10px;
+    margin: 1.5vh;
     border: none;
-    width: 20em;
-    height: 3.5em;
-    padding-left: 1.5em;
+    width: 40vh;
+    height: 7vh;
+    padding-left: 3vh;
     border-radius: 15px;
     background-color: var(--tertiary);
     color: var(--text);
@@ -76,7 +76,6 @@ main {
     cursor: pointer;
     font-size: medium;
     font-weight: bold;
-    margin: 2em 0em 1em;
 }
 
 .button-cadastro:hover {
@@ -92,4 +91,5 @@ a {
     display: flex;
     flex-direction: row;
     font-size: smaller;
+    margin-bottom: 8vh;
 }

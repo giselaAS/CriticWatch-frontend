@@ -7,6 +7,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .titulo {
@@ -81,16 +82,21 @@ main {
     padding: 15px 12px;
 }
 
-.pronto button{
+a {
+    text-decoration: none;
+    color: var(--text);
+}
+
+.pronto {
     background-color: var(--quaternary);
     color: var(--text);
-    border: none;
     padding: 15px 80px;
+    border: none;
     border-radius: 25px;
-    margin-top: 5em;
     cursor: pointer;
     font-size: medium;
     font-weight: bold;
+    margin-top: 10vh;
 }
 
 .buttons-enquete button:hover {
@@ -101,3 +107,4 @@ main {
     background-color: var(--text);
     color: var(--secondary);
 }
+
