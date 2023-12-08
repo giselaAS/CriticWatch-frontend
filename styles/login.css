@@ -72,7 +72,7 @@ a {
 .esqueceu-senha {
     justify-content: right;
     text-align: right;
-    margin-bottom: 6vh;
+    margin-bottom: 2em;
     margin-right: 15px;
     font-size: smaller;
 }
@@ -88,6 +88,7 @@ a {
     cursor: pointer;
     font-size: medium;
     font-weight: bold;
+    margin-bottom: 1em;
 }
 
 .button-login:hover {
@@ -99,5 +100,4 @@ a {
     display: flex;
     flex-direction: row;
     font-size: smaller;
-    margin-top: 5vh;
 }

@@ -1,0 +1,54 @@
+button .material-symbols-rounded span{
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 700,
+  'GRAD' 200,
+  'opsz' 24;
+}
+
+.enquetePoster img {
+    width: 44vh;
+    border-radius: 15px;
+}
+
+body {
+    background-color: var(--primary);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    margin: 2em 0em;
+    color: var(--text);
+}
+
+.tituloFilmeEnquete p {
+    color: var(--text);
+    margin-top: 2vh;
+}
+
+.buttonEscolhaEnquete button {
+    border: none;
+    border-radius: 1000px;
+    width: 10vh;
+    height: 10vh;
+    margin: 4vh;
+    cursor: pointer;
+}
+
+#naoGostei:hover {
+    background-color: red;
+}
+
+#gostei:hover {
+    background-color: green;
+}
+
+#pular:hover {
+    background-color: gray;
+}

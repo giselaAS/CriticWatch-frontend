@@ -7,7 +7,6 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
 }
 
 .titulo {
@@ -32,71 +31,27 @@ main {
     font-size: large;
     font-weight: bold;
     justify-content: center;
+    width: 22vh;
+    height: 8vh;
 }   
 
-.button-acao button {
-    padding: 15px 60px;
-}
 
-.button-drama button {
-    padding: 15px 54px;
-}
 
-.button-ficcaoCientica button {
-    padding: 15px 11px;
-}
-
-.button-comedia button {
-    padding: 15px 44px;
-}
-
-.button-terror button {
-    padding: 15px 56px;
-}
-
-.button-fantasia button {
-    padding: 15px 46px;
-}
-
-.button-crime button {
-    padding: 15px 57px;
-}
-
-.button-suspense button {
-    padding: 15px 40px;
-}
-
-.button-thriller button {
-    padding: 15px 52px;
-}
-
-.button-romance button {
-    padding: 15px 42px;
-}
-
-.button-anime button {
-    padding: 15px 55px;
-}
-
-.button-desenhoInfantil button {
-    padding: 15px 12px;
-}
-
-a {
-    text-decoration: none;
-    color: var(--text);
-}
-
-.pronto {
+.pronto button{
     background-color: var(--quaternary);
     color: var(--text);
-    padding: 15px 80px;
     border: none;
+    padding: 15px 80px;
     border-radius: 25px;
+    margin-top: 5em;
     cursor: pointer;
     font-size: medium;
     font-weight: bold;
-    margin-top: 10vh;
+}
+
+.pronto button:hover {
+    background-color: var(--text);
+    color: var(--quaternary);
 }
 
 .buttons-enquete button:hover {
@@ -108,3 +63,7 @@ a {
     color: var(--secondary);
 }
 
+.tituloFilmeEnquete p {
+    color: var(--text);
+    margin-top: 2vh;
+}
